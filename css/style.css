@@ -1,0 +1,416 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-size: 16px;
+    color: #83A7A5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+header{
+    background-image: url(../images/wka.png);
+    
+    position: relative;
+}
+.overlay{
+    background-color: #0f5f5ccc;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.tel-number{
+    
+color: #ffffff;
+    
+font-size: 16px;
+    
+display: inline-block;
+    
+vertical-align: middle;
+    
+padding-top: 2px;
+    
+border-left: 1px solid #fff;
+    
+padding-left: 10px;
+    
+font-weight: 600;
+}
+.navbar .good{
+    border-bottom: 1px solid #ffffff45;
+    padding: 15px 0;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+}
+.btn-highlight{
+    background: #83A7A5;
+    color: #fff !important;
+}
+.btn-highlight:hover{
+    background: #6FB048;
+}
+
+header .row{
+
+position: relative;
+
+min-height: 576px;
+
+align-items: center;
+}
+.banner{
+
+}
+
+.banner h1{
+    
+color: #fff;
+    
+font-size: 40px;
+}
+
+.banner p{
+    
+color: #fff;
+    
+font-size: 16px;
+}
+.btn-coustom{
+    
+background: #6FB048;
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+padding: 10px 25px;
+    
+border-radius: 0;
+    
+font-weight: 600;
+    
+font-weight: 16px;
+    
+font-size: 16px;
+}
+.btn-coustom:hover{
+    background: #83A7A5;
+    color: #fff;
+}
+
+.heading{
+
+text-align: center;
+
+margin-bottom: 50px;
+}
+.heading h2{
+    
+color: #0f5f5ccc;
+    
+font-weight: 600;
+    
+margin: 0;
+}
+.heading span{
+    
+background: #6FB048;
+    
+width: 70px;
+    
+height: 1px;
+    
+display: inline-block;
+    
+margin-bottom: 2px;
+}
+.heading p{
+    
+}
+.features-section{
+
+padding: 80px 0;
+}
+.features{
+
+padding: 25px 0;
+}
+.features h3{
+
+font-size: 20px;
+
+font-weight: 600;
+
+color: #0f5f5c;
+
+text-transform: capitalize;
+}
+.features img{
+
+margin-bottom: 10px;
+}
+.features p{
+
+}
+.responsive-section{
+    padding: 80px 0;
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+.responsive-content{
+
+padding: 120px 0;
+}
+
+.responsive-content h3{
+    
+font-size: 32px;
+    
+color: #0f5f5c;
+}
+
+.responsive-content p{
+    
+}
+
+.responsive-content ul{
+    
+}
+
+.responsive-content li{
+    
+font-size: 14px;
+    
+color: #83a7a5;
+    
+margin: 10px 0;
+}
+.pricing-table-section{
+
+padding: 120px 0;
+}
+.pricing-table-section .pricing-table:first-child{
+
+border: 1px solid #83A7A5;
+
+border-top-right-radius: 5px;
+
+border-bottom-left-radius: 5px;
+}
+.pricing-table-section .pricing-table:first-child button,
+.pricing-table-section .pricing-table:last-child button{
+    background-color: #83A7A5;
+}
+
+.pricing-table-section .pricing-table:last-child{
+
+border: 1px solid #83A7A5;
+
+border-top-right-radius: 5px;
+
+border-bottom-right-radius: 5px;
+}
+.pricing-table{
+
+border-top: 1px solid #83A7A5;
+
+border-bottom: 1px solid #83A7A6;
+
+padding-left: 40px !important;
+
+padding-right: 40px !important;
+
+text-align: center;
+
+padding-top: 30px;
+
+padding-bottom: 30px;
+}
+.pricing-table ul{
+    
+}
+.pricing-table ul li{
+    
+font-size: 14px;
+    
+color: #83a7a5;
+    
+margin: 10px 0;
+}
+.pricing-table ul li.tittle{
+    
+}
+.pricing-table ul li.tittle h4{
+    
+color: #6fb048;
+    
+font-size: 15px;
+    
+text-transform: uppercase;
+    
+font-weight: 600;
+}
+.pricing-table ul li.price{
+    
+margin: 24px0;
+}
+
+.pricing-table ul li.price h1{
+    
+color: #0f5f5c;
+    
+font-size: 65px;
+    
+font-weight: 900;
+    
+line-height: 1;
+}
+
+
+.pricing-table ul li.price h1 strong{
+    
+color: #0f5f5c;
+    
+font-size: 15px;
+    
+font-weight: 600;
+    
+display: block;
+}
+.pricing-table ul li button{
+    
+margin-top: 20px;
+}
+
+.pricing-table ul li button:hover{
+    
+}
+.abc{
+    
+/* text-align: center; */
+    
+padding: 50px 0;
+    
+background: #ffffff;
+}
+.girl{
+    padding: 80px 0;
+}
+
+.girl p{
+    
+}
+
+.girl h5{
+    
+color: #6fb048;
+    
+font-size: 16px;
+}
+
+.girl h6{
+    
+color: #83a7a5;
+    
+color: #83a7a5 !important;
+}
+.high{
+    padding: 80px 0;
+    background: #eef1ec;
+}
+
+.high img{
+
+margin-left: 87px;
+}
+.high-section{
+
+}
+
+.high-section h2{
+    
+}
+
+.high-section p{
+    
+}
+.incluide{
+    
+}
+.need-help{
+
+}
+
+.need-help h2{
+    
+color: #6fb048;
+}
+
+.need-help h5{
+    
+color: #0f5f5c;
+    
+font-weight: 700;
+}
+.downlod{
+background-image: url(../images/fottoer.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 70px;
+padding: 80px 0;
+}
+footer{
+    padding: 120px 0;
+}
+address{
+    line-height: 1.7;
+}
+.section-five h4{
+    color: #0f5f5c;
+}
+.rights-reserved{
+
+padding: 80px 0;
+}
+
+.rights-reserved p{
+    
+}
+
+.rights-reserved ul{
+    
+display: flex;
+    
+justify-content: center;
+}
+
+
+.rights-reserved ul li{
+    
+}
+
+
+.rights-reserved ul li i{
+    
+    margin-left: 23px;
+    font-size: 30px;
+    color: #1c5451;
+}
